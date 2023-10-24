@@ -1,6 +1,3 @@
-package Homework_1;
-
-
 public class Account {
 
     protected  double balance;

@@ -1,5 +1,3 @@
-package Homework_1;
-
 public class CreditAccount extends Account {
 
     CreditAccount(double balance) {
