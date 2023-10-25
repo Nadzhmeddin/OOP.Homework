@@ -1,6 +1,6 @@
 package Homework_2;
 
-public interface Interface {
+public interface Account {
 
     double getBalance();
     void putMoney(double balance);
