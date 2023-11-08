@@ -31,6 +31,7 @@ public class Homework4Main {
         // goldenAppleBox.add(new Apple(20)); не компилируется
 
         // appleBox.move(goldenAppleBox); // не компилируется 
+        goldenAppleBox.move(appleBox);
         
         // goldenAppleBox.move(appleBox); 
         System.out.println(goldenAppleBox.getWeight()); 

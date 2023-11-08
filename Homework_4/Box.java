@@ -25,7 +25,7 @@ public class Box <T extends Fruit>{
         fruits.add(fruit);
     } 
 
-    public void move(Box<T> box){
+    public void move(Box<? super T> box){
         for(T fruit : fruits) {
             box.add(fruit);
         }
